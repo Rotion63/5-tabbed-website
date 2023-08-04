@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function () {
+    // Load the Home tab content by default
+    loadHomeContent();
+  });
 function openTab(tabIndex) {
     switch (tabIndex) {
     case 1:
